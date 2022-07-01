@@ -1,66 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-01T05:56:39Z" name="Default suite" finished-at="2022-07-01T05:56:55Z" duration-ms="16058">
+  <suite started-at="2022-07-01T06:27:37Z" name="Default suite" finished-at="2022-07-01T06:27:37Z" duration-ms="667">
     <groups>
     </groups>
-    <test started-at="2022-07-01T05:56:39Z" name="Default test" finished-at="2022-07-01T05:56:55Z" duration-ms="16058">
-      <class name="day5.Runner">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:day5.Runner@568ff82]" started-at="2022-07-01T05:56:39Z" name="beforeTest" finished-at="2022-07-01T05:56:41Z" duration-ms="2444" status="PASS">
+    <test started-at="2022-07-01T06:27:37Z" name="Default test" finished-at="2022-07-01T06:27:37Z" duration-ms="667">
+      <class name="day5.Reading">
+        <test-method signature="f()[pri:0, instance:day5.Reading@484970b0]" started-at="2022-07-01T06:27:37Z" name="f" finished-at="2022-07-01T06:27:37Z" duration-ms="650" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="forgetLinkCheck()[pri:0, instance:day5.Runner@568ff82]" started-at="2022-07-01T05:56:41Z" name="forgetLinkCheck" finished-at="2022-07-01T05:56:47Z" duration-ms="5452" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgetLinkCheck -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:day5.Runner@568ff82]" started-at="2022-07-01T05:56:47Z" name="afterMethod" finished-at="2022-07-01T05:56:47Z" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=forgetLinkCheck status=SUCCESS method=Runner.forgetLinkCheck()[pri:0, instance:day5.Runner@568ff82] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="forgetPageCancelCheck()[pri:0, instance:day5.Runner@568ff82]" started-at="2022-07-01T05:56:47Z" name="forgetPageCancelCheck" finished-at="2022-07-01T05:56:47Z" depends-on-methods="day5.Runner.forgetLinkCheck" duration-ms="565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgetPageCancelCheck -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:day5.Runner@568ff82]" started-at="2022-07-01T05:56:47Z" name="afterMethod" finished-at="2022-07-01T05:56:47Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=forgetPageCancelCheck status=SUCCESS method=Runner.forgetPageCancelCheck()[pri:0, instance:day5.Runner@568ff82] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginCheck()[pri:0, instance:day5.Runner@568ff82]" started-at="2022-07-01T05:56:47Z" name="loginCheck" finished-at="2022-07-01T05:56:52Z" depends-on-methods="day5.Runner.forgetPageCancelCheck" duration-ms="5339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginCheck -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:day5.Runner@568ff82]" started-at="2022-07-01T05:56:52Z" name="afterMethod" finished-at="2022-07-01T05:56:52Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginCheck status=SUCCESS method=Runner.loginCheck()[pri:0, instance:day5.Runner@568ff82] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:day5.Runner@568ff82]" started-at="2022-07-01T05:56:52Z" name="afterTest" finished-at="2022-07-01T05:56:55Z" duration-ms="2225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- day5.Runner -->
+        </test-method> <!-- f -->
+      </class> <!-- day5.Reading -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
