@@ -2,6 +2,8 @@ package day5;
 
 import java.io.FileInputStream;
 
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.Test;
@@ -22,7 +24,7 @@ public class Reading {
 		System.out.println("Total available rows are " + rows);
 		int col = sh.getRow(0).getLastCellNum(); // it gives actual number of column
 		System.out.println(col);
-
+/*
 		for (int i = 0; i <= rows; i++) {
 			// System.out.print(sh.getRow(i).getCell(0).toString()+" ");
 			// System.out.print(sh.getRow(i).getCell(1).toString()+" ");
@@ -32,6 +34,12 @@ public class Reading {
 			}
 			System.out.println();
 		}
+*/
+		XSSFCell cell=sh.getRow(1).getCell(2);
+		DataFormatter formatter = new DataFormatter();
+		String cellData = formatter.formatCellValue(cell);
+		
+		System.out.println(cellData);
 
 	}
 }
