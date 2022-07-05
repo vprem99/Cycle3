@@ -1,17 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-04T05:57:52Z" name="Default suite" finished-at="2022-07-04T05:57:53Z" duration-ms="1006">
+  <suite started-at="2022-07-05T06:15:19Z" name="Default suite" finished-at="2022-07-05T06:16:48Z" duration-ms="89153">
     <groups>
     </groups>
-    <test started-at="2022-07-04T05:57:52Z" name="Default test" finished-at="2022-07-04T05:57:53Z" duration-ms="1006">
-      <class name="day6.Writing">
-        <test-method signature="f()[pri:0, instance:day6.Writing@37f1104d]" started-at="2022-07-04T05:57:52Z" name="f" finished-at="2022-07-04T05:57:53Z" duration-ms="984" status="PASS">
+    <test started-at="2022-07-05T06:15:19Z" name="Default test" finished-at="2022-07-05T06:16:48Z" duration-ms="89153">
+      <class name="frameWork.KeyRunner2">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:frameWork.KeyRunner2@c03cf28]" started-at="2022-07-05T06:15:19Z" name="beforeTest" finished-at="2022-07-05T06:15:21Z" duration-ms="2861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frameWork.KeyRunner2@c03cf28]" started-at="2022-07-05T06:15:22Z" name="f" data-provider="dp" finished-at="2022-07-05T06:16:12Z" duration-ms="49751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[getUrl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Na]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- day6.Writing -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:frameWork.KeyRunner2@c03cf28]" started-at="2022-07-05T06:16:12Z" name="afterMethod" finished-at="2022-07-05T06:16:12Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=KeyRunner2.f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frameWork.KeyRunner2@c03cf28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frameWork.KeyRunner2@c03cf28]" started-at="2022-07-05T06:16:12Z" name="f" data-provider="dp" finished-at="2022-07-05T06:16:12Z" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[type]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[txtUsername]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:frameWork.KeyRunner2@c03cf28]" started-at="2022-07-05T06:16:12Z" name="afterMethod" finished-at="2022-07-05T06:16:12Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=KeyRunner2.f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frameWork.KeyRunner2@c03cf28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frameWork.KeyRunner2@c03cf28]" started-at="2022-07-05T06:16:12Z" name="f" data-provider="dp" finished-at="2022-07-05T06:16:12Z" duration-ms="77" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[type]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[txtPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:frameWork.KeyRunner2@c03cf28]" started-at="2022-07-05T06:16:12Z" name="afterMethod" finished-at="2022-07-05T06:16:12Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=KeyRunner2.f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frameWork.KeyRunner2@c03cf28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frameWork.KeyRunner2@c03cf28]" started-at="2022-07-05T06:16:12Z" name="f" data-provider="dp" finished-at="2022-07-05T06:16:46Z" duration-ms="33542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[btnLogin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:frameWork.KeyRunner2@c03cf28]" started-at="2022-07-05T06:16:46Z" name="afterMethod" finished-at="2022-07-05T06:16:46Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=KeyRunner2.f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frameWork.KeyRunner2@c03cf28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:frameWork.KeyRunner2@c03cf28]" started-at="2022-07-05T06:16:46Z" name="afterTest" finished-at="2022-07-05T06:16:48Z" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- frameWork.KeyRunner2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

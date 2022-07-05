@@ -20,7 +20,6 @@ public class ExcelReader {
 			} else
 				System.out.println("Invalid File Format");
 		}
-
 		catch (Exception E) {
 			System.out.println("Error with File Reading" + E.getMessage());
 		}
@@ -36,10 +35,12 @@ public class ExcelReader {
 		return wb.getSheet(sheetName).getLastRowNum() + 1;
 	}
 
-	/*
-	 * public String[][] getAllData(String sheetName, int row, int col) {
-	 * 
-	 * }
-	 */
+
+	  public String[][] getAllData(String sheetName, int row, int col) {
+		  String data[][]=new String[2][3];
+		  
+		  return data;
+	  }
+	 
 
 }
